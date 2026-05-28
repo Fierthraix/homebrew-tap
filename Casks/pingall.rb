@@ -4,12 +4,12 @@ cask "pingall" do
 
   on_macos do
     on_intel do
-      sha256 "cf7ec4eb396430601c4ba5e26f7ed838d41d61948880446e52a3b1b41d74744f"
+      sha256 "fab60fb71aa969c8080cb754d94b13bfcc6292d1066ad32e954e8e2d4e14c7ca"
       url "https://github.com/Fierthraix/pingall/releases/download/v#{version}/pingall-#{version}-x86_64-apple-darwin.tar.gz"
       rename "pingall-2.1.5-x86_64-apple-darwin/pingall", "pingall"
     end
     on_arm do
-      sha256 "31dd3ccf78d572904ccfb26e07e2ede6a57cd9a8259c0f6a60d9bb7729e5f111"
+      sha256 "f7e47b48fee5a065013b601752abc41391e857d3e446898c9dc5f62e8c3e4e18"
       url "https://github.com/Fierthraix/pingall/releases/download/v#{version}/pingall-#{version}-aarch64-apple-darwin.tar.gz"
       rename "pingall-2.1.5-aarch64-apple-darwin/pingall", "pingall"
     end
@@ -17,12 +17,12 @@ cask "pingall" do
 
   on_linux do
     on_intel do
-      sha256 "6da1188c7f84c1d28e46f09111b5f4401bc15fb7f1ade0f0936b1e89a73aedfc"
+      sha256 "06846713e227bbf6c5956c7446873ff4beac7ed9c321eda3fd1367d827a999bb"
       url "https://github.com/Fierthraix/pingall/releases/download/v#{version}/pingall-#{version}-x86_64-unknown-linux-gnu.tar.gz"
       rename "pingall-2.1.5-x86_64-unknown-linux-gnu/pingall", "pingall"
     end
     on_arm do
-      sha256 "251c13c26b322ba6b2ca19cee4d31c2cc39c5f2a89907fa47e09cf2cb2b8ec49"
+      sha256 "4a8989ad1c3808cdf8e31f17be13a86b27940cbf3221dd3e7944645c76366e92"
       url "https://github.com/Fierthraix/pingall/releases/download/v#{version}/pingall-#{version}-aarch64-unknown-linux-gnu.tar.gz"
       rename "pingall-2.1.5-aarch64-unknown-linux-gnu/pingall", "pingall"
     end
