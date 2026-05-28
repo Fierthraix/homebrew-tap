@@ -4,12 +4,12 @@ cask "rimilo" do
 
   on_macos do
     on_intel do
-      sha256 "f27829b5c311d94588dc3b16cd49c2452f95a342eee0538243ed509559695d64"
+      sha256 "11739eedac5b1f2dc086ab6c829ea9bb955896a6a91c89ff0b5a853117e308be"
       url "https://github.com/Fierthraix/rimilo/releases/download/v#{version}/rimilo-#{version}-x86_64-apple-darwin.tar.gz"
       rename "rimilo-0.2.8-x86_64-apple-darwin/rimilo", "rimilo"
     end
     on_arm do
-      sha256 "61119d17442f8f38739f0f2e9530c6af06cec9a27ffefad8df3dc8cbffd0bb06"
+      sha256 "f55ca81f4bf25740582f19084a5573d67d124def617845b03b3089297e5383f2"
       url "https://github.com/Fierthraix/rimilo/releases/download/v#{version}/rimilo-#{version}-aarch64-apple-darwin.tar.gz"
       rename "rimilo-0.2.8-aarch64-apple-darwin/rimilo", "rimilo"
     end
@@ -17,12 +17,12 @@ cask "rimilo" do
 
   on_linux do
     on_intel do
-      sha256 "cbf42034786342cbd20cf0a368f93be0c8faacff72d638c0d19b6e2c5724bb68"
+      sha256 "cc54ff587c86c3791c6cb0786930d4bd1bee931d408e29fe985c897575362883"
       url "https://github.com/Fierthraix/rimilo/releases/download/v#{version}/rimilo-#{version}-x86_64-unknown-linux-gnu.tar.gz"
       rename "rimilo-0.2.8-x86_64-unknown-linux-gnu/rimilo", "rimilo"
     end
     on_arm do
-      sha256 "6a8841b587fc07c7d55f906735f02dcf1c5ff1ed5299dd045b00b431fd2ed4bd"
+      sha256 "3a86a0843634ad8de9240c33761b31615815c6d4dbf3d6fbc0cfc4b929b49ab5"
       url "https://github.com/Fierthraix/rimilo/releases/download/v#{version}/rimilo-#{version}-aarch64-unknown-linux-gnu.tar.gz"
       rename "rimilo-0.2.8-aarch64-unknown-linux-gnu/rimilo", "rimilo"
     end
