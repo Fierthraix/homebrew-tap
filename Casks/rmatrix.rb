@@ -4,12 +4,12 @@ cask "rmatrix" do
 
   on_macos do
     on_intel do
-      sha256 "e2cbf5f553c670c0108faa49846d4192bc042f1639fb542aa8dace9e4552ec49"
+      sha256 "575811bcf3c2f3c5ac46c502490272926b155f6c63b809e4d6c4868d7f37133d"
       url "https://github.com/Fierthraix/rmatrix/releases/download/v#{version}/rmatrix-#{version}-x86_64-apple-darwin.tar.gz"
       rename "rmatrix-2.0.3-x86_64-apple-darwin/r-matrix", "r-matrix"
     end
     on_arm do
-      sha256 "143c62877f176d53d491fbba744b4eb43a3c51cbf80713a3b6c738aac7b5c18e"
+      sha256 "7d5bf7fff49f61a42df41af3e8db3fbba65f345d6cb124c1c01f638ac00e938b"
       url "https://github.com/Fierthraix/rmatrix/releases/download/v#{version}/rmatrix-#{version}-aarch64-apple-darwin.tar.gz"
       rename "rmatrix-2.0.3-aarch64-apple-darwin/r-matrix", "r-matrix"
     end
@@ -17,12 +17,12 @@ cask "rmatrix" do
 
   on_linux do
     on_intel do
-      sha256 "fde581cd11fe848e8eabd0b5c3c71a14c5e25af0bf3a41b47b2f027966d0f243"
+      sha256 "8f91ca287652d2c3c98ad5f6b20aae28be7bae5bfd64bb23ff1eaee4b279444e"
       url "https://github.com/Fierthraix/rmatrix/releases/download/v#{version}/rmatrix-#{version}-x86_64-unknown-linux-gnu.tar.gz"
       rename "rmatrix-2.0.3-x86_64-unknown-linux-gnu/r-matrix", "r-matrix"
     end
     on_arm do
-      sha256 "14cf4085a3cd8b16f7813c8085749b6e693d85afc133f85b693cb47afbce2420"
+      sha256 "677c71868dfbf0bb7df96385a9477ecc27102dcc4cc91a9adcdeb96df0ba9a5b"
       url "https://github.com/Fierthraix/rmatrix/releases/download/v#{version}/rmatrix-#{version}-aarch64-unknown-linux-gnu.tar.gz"
       rename "rmatrix-2.0.3-aarch64-unknown-linux-gnu/r-matrix", "r-matrix"
     end
