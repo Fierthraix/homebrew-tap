@@ -4,12 +4,12 @@ cask "tiny-ping" do
 
   on_macos do
     on_intel do
-      sha256 "e7060f2ee7c6dcc1ab9276bf38e902fe6309d69184fbac49af636d0d2c7932bc"
+      sha256 "ed2b06bc8fab6f15160b04fbc89c3c83477e7a3818236dd93f70a237cff7b48b"
       url "https://github.com/Fierthraix/tiny-ping/releases/download/v#{version}/tiny-ping-#{version}-x86_64-apple-darwin.tar.gz"
       rename "tiny-ping-0.7.1-x86_64-apple-darwin/tiny-ping", "tiny-ping"
     end
     on_arm do
-      sha256 "76865d5903b176c879fc56d049d2412935cf2ebdfd12c0f2c906c2a1d9439df2"
+      sha256 "311e4a6be09940eb640eb8d9ed200add38fe64efb9f6f00d3c2f360f2df4ca62"
       url "https://github.com/Fierthraix/tiny-ping/releases/download/v#{version}/tiny-ping-#{version}-aarch64-apple-darwin.tar.gz"
       rename "tiny-ping-0.7.1-aarch64-apple-darwin/tiny-ping", "tiny-ping"
     end
@@ -17,12 +17,12 @@ cask "tiny-ping" do
 
   on_linux do
     on_intel do
-      sha256 "3ebc392ef96399539727371b922a23a9f120396a17fe54cedfa7707b5c75d235"
+      sha256 "20ccd20a443102443fbd85c592174fa6a1b5f8bdf856b3cec928a0c031bd5f9b"
       url "https://github.com/Fierthraix/tiny-ping/releases/download/v#{version}/tiny-ping-#{version}-x86_64-unknown-linux-gnu.tar.gz"
       rename "tiny-ping-0.7.1-x86_64-unknown-linux-gnu/tiny-ping", "tiny-ping"
     end
     on_arm do
-      sha256 "5a2831df568f6077da1d992e7be80d25b983f5296f57f8f459a8fe606c25607f"
+      sha256 "ecabe246737d54d05c78e90c363273fe4232bdcc91fcc202c419b74772d485a1"
       url "https://github.com/Fierthraix/tiny-ping/releases/download/v#{version}/tiny-ping-#{version}-aarch64-unknown-linux-gnu.tar.gz"
       rename "tiny-ping-0.7.1-aarch64-unknown-linux-gnu/tiny-ping", "tiny-ping"
     end
