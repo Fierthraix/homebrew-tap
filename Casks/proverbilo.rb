@@ -4,12 +4,12 @@ cask "proverbilo" do
 
   on_macos do
     on_intel do
-      sha256 "1e873976024f6d5243f84d1d100e8853b38ec0d96dffd533e3024fc1d4e5096d"
+      sha256 "2656930fc1b7995889ff655ab2555ae743110376ac13b803c0543d26cc2a2aad"
       url "https://github.com/Fierthraix/proverbilo/releases/download/v#{version}/proverbilo-#{version}-x86_64-apple-darwin.tar.gz"
       rename "proverbilo-0.1.9-x86_64-apple-darwin/proverbilo", "proverbilo"
     end
     on_arm do
-      sha256 "4171aa7ac437e83196108995e70e0efd974a5ce9944631e5dc652d933024b83a"
+      sha256 "951e2450af67c686916a0ba80a618ec2be1fdc6d9b3c44e930ca0e24a287a720"
       url "https://github.com/Fierthraix/proverbilo/releases/download/v#{version}/proverbilo-#{version}-aarch64-apple-darwin.tar.gz"
       rename "proverbilo-0.1.9-aarch64-apple-darwin/proverbilo", "proverbilo"
     end
@@ -17,12 +17,12 @@ cask "proverbilo" do
 
   on_linux do
     on_intel do
-      sha256 "c38235bec4ff89ec49fbe1765897c612833b236bace7b8f86c765e1fa251047d"
+      sha256 "6b6dc17bc6f8bb7e4fed3ed3e86eb3582f18d50da3850511c27d895ca8c9c21d"
       url "https://github.com/Fierthraix/proverbilo/releases/download/v#{version}/proverbilo-#{version}-x86_64-unknown-linux-gnu.tar.gz"
       rename "proverbilo-0.1.9-x86_64-unknown-linux-gnu/proverbilo", "proverbilo"
     end
     on_arm do
-      sha256 "499c018c5b88b8025381d425f8ca4373c91bae58d5e04a994b2fa83637adac06"
+      sha256 "7a3730e6d8319c64e82da71f14139545dbb6a49089f22eea2560c15d6775395c"
       url "https://github.com/Fierthraix/proverbilo/releases/download/v#{version}/proverbilo-#{version}-aarch64-unknown-linux-gnu.tar.gz"
       rename "proverbilo-0.1.9-aarch64-unknown-linux-gnu/proverbilo", "proverbilo"
     end
