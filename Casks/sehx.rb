@@ -4,12 +4,12 @@ cask "sehx" do
 
   on_macos do
     on_intel do
-      sha256 "4630e2d662975b3868a8e9d695f2c5b29a4b416ee87aac8eea8035861ed2fdbc"
+      sha256 "28caebe0b7f0368ac95624ef1d0ada5ffcc10e42bcff9db3531a957005f7ac96"
       url "https://github.com/Fierthraix/sehx-rs/releases/download/v#{version}/sehx-#{version}-x86_64-apple-darwin.tar.gz"
       rename "sehx-0.1.3-x86_64-apple-darwin/sehx", "sehx"
     end
     on_arm do
-      sha256 "62d0007221f7b917ffcc2f03afd9307005a396501301dc3e6c4ed7a824c4d85b"
+      sha256 "fba0a138d8b086417f5b581693a3ed76c7bd4ba76e3ba50e909eab2b89a544fd"
       url "https://github.com/Fierthraix/sehx-rs/releases/download/v#{version}/sehx-#{version}-aarch64-apple-darwin.tar.gz"
       rename "sehx-0.1.3-aarch64-apple-darwin/sehx", "sehx"
     end
@@ -17,12 +17,12 @@ cask "sehx" do
 
   on_linux do
     on_intel do
-      sha256 "80fda507a816d36479ecf2ae4cb842040555a01291e4c57b13391a15a981e66a"
+      sha256 "d2b066700909dfc2ba28688b9a48ddbb4c3263dc0160892055800240437ef433"
       url "https://github.com/Fierthraix/sehx-rs/releases/download/v#{version}/sehx-#{version}-x86_64-unknown-linux-gnu.tar.gz"
       rename "sehx-0.1.3-x86_64-unknown-linux-gnu/sehx", "sehx"
     end
     on_arm do
-      sha256 "7c85a63a32111504fa8c3d4167bbb3e0348e3d23d0b8e80853ecb5a812c45d93"
+      sha256 "b0c6e8857751e73d415e693015db19cb21e76479f38fe09b133d2c6b2ab184b9"
       url "https://github.com/Fierthraix/sehx-rs/releases/download/v#{version}/sehx-#{version}-aarch64-unknown-linux-gnu.tar.gz"
       rename "sehx-0.1.3-aarch64-unknown-linux-gnu/sehx", "sehx"
     end
