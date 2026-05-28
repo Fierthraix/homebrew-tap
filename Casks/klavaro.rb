@@ -4,12 +4,12 @@ cask "klavaro" do
 
   on_macos do
     on_intel do
-      sha256 "56171213918dc3a8567edac3036d2959fbf314c4acbf58200857fff241544f3f"
+      sha256 "62d7b9ac09fcba7896398c6bec2e9b81bef071ba6748412ae58580cc0b260406"
       url "https://github.com/Fierthraix/klavaro/releases/download/v#{version}/klavaro-#{version}-x86_64-apple-darwin.tar.gz"
       rename "klavaro-1.0.5-x86_64-apple-darwin/klavaro", "klavaro"
     end
     on_arm do
-      sha256 "d3ec4a5a9ee4957a11ce70aedef1e7c74e76bc7476cdf6c666592685a2d3894c"
+      sha256 "3c6029e164796856bea9003a6437815487e120d67a6ae5b13f37f04b89aa211e"
       url "https://github.com/Fierthraix/klavaro/releases/download/v#{version}/klavaro-#{version}-aarch64-apple-darwin.tar.gz"
       rename "klavaro-1.0.5-aarch64-apple-darwin/klavaro", "klavaro"
     end
@@ -17,12 +17,12 @@ cask "klavaro" do
 
   on_linux do
     on_intel do
-      sha256 "e4119535d3069621c2d78899ae45930195e585998ca102adc0398af72e72119b"
+      sha256 "ea8cb36f592bc60b906c7a7bbff63d91cb8b607c73eb4bd536047c2fc86cdf6a"
       url "https://github.com/Fierthraix/klavaro/releases/download/v#{version}/klavaro-#{version}-x86_64-unknown-linux-gnu.tar.gz"
       rename "klavaro-1.0.5-x86_64-unknown-linux-gnu/klavaro", "klavaro"
     end
     on_arm do
-      sha256 "80cc534293c061c9b782307357803d2048dfab5a7181bdc35e87d618fa708c35"
+      sha256 "fceb27a6c7ce045380ec006bcce4e79979dfadfa90980d3e04951c8c342bb678"
       url "https://github.com/Fierthraix/klavaro/releases/download/v#{version}/klavaro-#{version}-aarch64-unknown-linux-gnu.tar.gz"
       rename "klavaro-1.0.5-aarch64-unknown-linux-gnu/klavaro", "klavaro"
     end
