@@ -4,12 +4,12 @@ cask "aodv" do
 
   on_macos do
     on_intel do
-      sha256 "8e98d84cae48929416fb69a4f50a3c73d512ec8c2c56eeff60f99adbe9645419"
+      sha256 "d8b1c03bac311113f738dfdfbfed22764a66369b76be1e128ec01f36cf448d82"
       url "https://github.com/Fierthraix/aodv-rs/releases/download/v#{version}/aodv-#{version}-x86_64-apple-darwin.tar.gz"
       rename "aodv-0.2.2-x86_64-apple-darwin/aodv", "aodv"
     end
     on_arm do
-      sha256 "1a180189be5174f643e189404889a5ac6d1538b335a58965bc02a082d0029e5f"
+      sha256 "df1dbaa51f75ab9fdca2c0874bb6e0346ec8bda80240b8b5c52998a987fc4275"
       url "https://github.com/Fierthraix/aodv-rs/releases/download/v#{version}/aodv-#{version}-aarch64-apple-darwin.tar.gz"
       rename "aodv-0.2.2-aarch64-apple-darwin/aodv", "aodv"
     end
@@ -17,12 +17,12 @@ cask "aodv" do
 
   on_linux do
     on_intel do
-      sha256 "dc94da911ca0d5f7a476543a6f4fffe7b428dea5c0df443ba9d013008bce0855"
+      sha256 "65768f73a438d567bfb45d73138d397a9619b0286a49e265a51cd0e08fd253e2"
       url "https://github.com/Fierthraix/aodv-rs/releases/download/v#{version}/aodv-#{version}-x86_64-unknown-linux-gnu.tar.gz"
       rename "aodv-0.2.2-x86_64-unknown-linux-gnu/aodv", "aodv"
     end
     on_arm do
-      sha256 "63abea65f976cff36eec5d5a06084b267a34040b93bb30fd08c18c26f86b869d"
+      sha256 "9c78210f2e7a8d4150bb2e3d4fe9df6dcea150cb37ec46537011d82badb858a5"
       url "https://github.com/Fierthraix/aodv-rs/releases/download/v#{version}/aodv-#{version}-aarch64-unknown-linux-gnu.tar.gz"
       rename "aodv-0.2.2-aarch64-unknown-linux-gnu/aodv", "aodv"
     end
